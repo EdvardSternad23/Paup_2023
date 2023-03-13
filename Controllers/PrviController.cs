@@ -36,5 +36,9 @@ namespace Paup_2023.Controllers
             return View();
 
         }
+        public string VratiVrijeme()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
